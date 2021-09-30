@@ -69,10 +69,12 @@ nav i {
 
 .audio-video .box {
    padding: 0 15px;
+   cursor: pointer;
 }
 
 .audio-video .box .inline-block {
    text-align: center;
+   vertical-align: middle;
 }
 
 .audio-video .box .inline-block p {
