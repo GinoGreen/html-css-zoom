@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+   color: #FFF;
+}
+
+/* HEADER  */
+header {
+   width: 100vw;
+   height: 50px;
+   padding: 13px;
+   position: fixed;
+   top: 0;
+   display: flex;
+   justify-content: flex-end;
+   background-color: #000;
+}
+
+header .label-header {
+   margin-left: 5px;
+   cursor: pointer;
+}
+
+header .label-header span {
+   padding: 7px 11px;
+   background-color: #4A4A4A;
+   border-radius: 5px;
+}
+
+/* MAIN  */
+main {
+   margin: 50px 0;
+   background-color: brown;
+}
+/* NAV BAR  */
+nav {
+   width: 100vw;
+   height: 100px;
+   position: fixed;
+   bottom: 0;
+   background-color: #222;
+}
