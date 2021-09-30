@@ -9,6 +9,15 @@ body {
    color: #FFF;
 }
 
+.inline-block {
+   display: inline-block;
+}
+
+.chevron i {
+   display: fle;
+   font-size: 1rem;
+}
+
 /* HEADER  */
 header {
    width: 100vw;
@@ -44,4 +53,32 @@ nav {
    position: fixed;
    bottom: 0;
    background-color: #222;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav i {
+   font-size: 40px;
+}
+
+/* audio video  */
+.audio-video {
+   display: flex;
+}
+
+.audio-video .box {
+   padding: 0 15px;
+}
+
+.audio-video .box .inline-block {
+   text-align: center;
+}
+
+.audio-video .box .inline-block p {
+   padding: 5px 0;
+}
+
+.audio-video .box .chevron {
+   padding: 0 14px;
 }
