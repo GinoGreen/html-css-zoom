@@ -9,6 +9,10 @@ body {
    color: #FFF;
 }
 
+ul {
+   list-style: none;
+}
+
 .inline-block {
    display: inline-block;
 }
@@ -58,6 +62,10 @@ nav {
    align-items: center;
 }
 
+nav p {
+   padding: 5px 0;
+}
+
 nav i {
    font-size: 40px;
 }
@@ -67,7 +75,7 @@ nav i {
    display: flex;
 }
 
-.audio-video .box {
+.box {
    padding: 0 15px;
    cursor: pointer;
 }
@@ -77,10 +85,23 @@ nav i {
    vertical-align: middle;
 }
 
-.audio-video .box .inline-block p {
-   padding: 5px 0;
-}
-
 .audio-video .box .chevron {
    padding: 0 14px;
 }
+
+/* options  */
+.options ul {
+   width: 900px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.options ul li {
+   text-align: center;
+   cursor: pointer;
+}
+
+.options ul li .inline-block {
+   vertical-align: middle;
+}
+
