@@ -32,6 +32,7 @@ header {
    display: flex;
    justify-content: flex-end;
    background-color: #000;
+   z-index: 999;
 }
 
 header .label-header {
@@ -47,8 +48,28 @@ header .label-header span {
 
 /* MAIN  */
 main {
-   margin: 50px 0;
-   background-color: brown;
+   margin: 50px 0 100px 0;
+   background-color: #000;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.user {
+   position: relative;
+   margin: 5px;
+}
+
+.user img {
+   height: 100%;
+}
+
+.user .label {
+   padding: 7px 10px;
+   background-color: rgba(0, 0, 0, .6);
+   position: absolute;
+   bottom: 0;
+   left: 0;
 }
 /* NAV BAR  */
 nav {
